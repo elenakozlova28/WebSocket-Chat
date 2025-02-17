@@ -3,9 +3,6 @@ const http = require('http');
 const path = require('path');
 const fs = require('fs');
 
-
-
-
 // Setup HTTP server
 const server = http.createServer((req, res) => {
   const filePath = path.join(__dirname, 'index.html');
